@@ -6,7 +6,7 @@
 
 📁 Project Type: End-to-End Data Analytics Project
 
-#
+---
 #📌 **Project Overview**
 
 This project demonstrates an end-to-end data analytics workflow using a Flipkart product dataset. It covers:
@@ -17,8 +17,8 @@ This project demonstrates an end-to-end data analytics workflow using a Flipkart
 * 
 The goal is to uncover business insights such as top-selling products, discount trends, seller performance, and stock levels, and to present them in a clean and interactive Power BI report.
 
-#
- 🧹 **Step 1: Data Cleaning (Excel)**
+---
+#🧹 **Step 1: Data Cleaning (Excel)**
 
 Raw dataset downloaded from Kaggle
 
@@ -30,7 +30,8 @@ Saved as .csv for database import
 
 flipkart_products_cleaned.csv
 
-🗄️ **Step 2: SQL Database Integration (pgAdmin/PostgreSQL)**
+---
+🗄️ #**Step 2: SQL Database Integration (pgAdmin/PostgreSQL)**
 
 Imported cleaned CSV into PostgreSQL using pgAdmin 4
 
@@ -62,7 +63,8 @@ Top_Sellers_View
 
 High_Discount_High_Rating_View (optional)
 
-📊 **Step 3: Dashboard in Power BI**
+---
+📊 #**Step 3: Dashboard in Power BI**
 
 Imported SQL views into Power BI using Import mode
 
@@ -72,13 +74,13 @@ Created 4 report pages:
 
 flipkart_dashboard.pbix
 
-🏠 Page 1: Home
+🏠 #Page 1: Home
 
 Project Title, Description, and Tools Used
 
 KPI Cards: Total Products, Total Sales, Avg. Rating, etc.
 
-📈 Page 2: Sales Insights
+📈 #Page 2: Sales Insights
 
 Top Selling Products (Bar chart)
 
@@ -86,7 +88,7 @@ Category-Wise Sales (Column chart)
 
 Subcategory Popularity (Bar chart)
 
-💸 Page 3: Discounts & Ratings
+💸 #Page 3: Discounts & Ratings
 
 Top Rated Products (Bar chart)
 
@@ -94,7 +96,7 @@ Average Discount by Category (Column chart)
 
 High Discount + High Rating Products (optional)
 
-📦 Page 4: Inventory & Sellers
+📦 #Page 4: Inventory & Sellers
 
 Low Stock Alert (Table)
 
@@ -106,7 +108,8 @@ Sellers with Most Products (Bar chart)
 
 Add .png images of each Power BI page here
 
-📌 **Tools & Technologies Used**
+---
+📌 #**Tools & Technologies Used**
 
 Excel – Data Cleaning
 
@@ -114,7 +117,8 @@ PostgreSQL (pgAdmin 4) – SQL Analysis & Views
 
 Power BI – Dashboard & Visualization
 
-📝 **Key Learnings**
+---
+📝 #**Key Learnings**
 
 How to clean raw data for analysis
 
