@@ -14,7 +14,7 @@ This project demonstrates an end-to-end data analytics workflow using a Flipkart
 * Data cleaning & transformation in Excel
 * Data modeling & analysis in SQL
 * Interactive dashboard creation in Power BI
-* 
+
 The goal is to uncover business insights such as top-selling products, discount trends, seller performance, and stock levels, and to present them in a clean and interactive Power BI report.
 
 ---
@@ -26,22 +26,21 @@ Removed duplicates, fixed formatting, and ensured column names matched SQL namin
 
 Saved as .csv for database import
 
-📁 GitHub Folder: data/
+📁 Cleaned Data Folder attached above
 
-flipkart_products_cleaned.csv
 
 ---
 ## 🗄️ **Step 2: SQL Database Integration (pgAdmin/PostgreSQL)**
 
 Imported cleaned CSV into PostgreSQL using pgAdmin 4
 
-Created a table named flipcart_products
+Created a table named flipkart_products
 
 Designed and executed SQL queries to extract insights
 
-📁 GitHub Folder: sql/
+📁 SQL Folder attached above
 
-flipkart_views.sql – Contains all 9 SQL view creation scripts
+Contains all 8 SQL view creation scripts
 
 🔎 SQL Views Created:
 
@@ -61,7 +60,6 @@ Subcategory_Buyers_View
 
 Top_Sellers_View
 
-High_Discount_High_Rating_View (optional)
 
 ---
 ## 📊 **Step 3: Dashboard in Power BI**
@@ -70,43 +68,51 @@ Imported SQL views into Power BI using Import mode
 
 Created 4 report pages:
 
-📁 GitHub Folder: powerbi/
-
-flipkart_dashboard.pbix
+📁 Power Bi Folder attached above
 
 ### 🏠 Page 1: Home
 
 Project Title, Description, and Tools Used
 
-KPI Cards: Total Products, Total Sales, Avg. Rating, etc.
 
-### 📈 Page 2: Sales Insights
+### 📈 Page 2: Sales Overview
+
+KPI Cards: Total Products, Total Units Sold, Average Price
+
+Slicer: Main Catogory, Sub-Category
 
 Top Selling Products (Bar chart)
 
-Category-Wise Sales (Column chart)
+Category total Sales (Donut chart)
 
-Subcategory Popularity (Bar chart)
+Subcategory Popularity (column chart)
 
-### 💸 Page 3: Discounts & Ratings
 
-Top Rated Products (Bar chart)
+### 💸 Page 3: Discounts & Ratings Overview
+
+KPI Cards: Average Discount%, Average Rating
+
+Slicer: Main Catogory
+
+Top Rated Products (Table)
 
 Average Discount by Category (Column chart)
 
-High Discount + High Rating Products (optional)
 
-### 📦 Page 4: Inventory & Sellers
+### 📦 Page 4: Sellers And Return Policy Overview
 
-Low Stock Alert (Table)
+KPI Card: Total Sellers
 
-Return Policy Distribution (Donut chart)
+Slicers: Return Policy, Seller
 
-Sellers with Most Products (Bar chart)
+Low Stock Products (Bar chart)
 
-📁 GitHub Folder: screenshots/
+Return Policy Distribution (Pie chart)
 
-Add .png images of each Power BI page here
+Sellers with Most Products (Column chart)
+
+
+📁 Screenshots Folder of Power Bi attached above
 
 ---
 # 📌 **Tools & Technologies Used**
@@ -130,93 +136,3 @@ How to structure an end-to-end data analytics project
 
 
 
-📊 Visualization Guide for Each View
-1️⃣ top_selling_products
-Shows: Top 10 products by Total_Sold
-
-📈 Use: Bar Chart
-
-Axis: Product_Name
-
-Value: Total_Sold
-
-Sort by: Total_Sold descending
-
-🛠 Use horizontal bar chart for long product names
-
-2️⃣ category_total_sales
-Shows: Total sales by Main_Category
-
-📊 Use: Column Chart or Donut Chart
-
-Axis: Main_Category
-
-Value: Total_Sales
-
-📌 Add data labels to show exact numbers
-
-3️⃣ top_rated_products
-Shows: Top 10 highest-rated products
-
-⭐ Use: Table or Card View
-
-Columns: Product_Name, Rating
-
-Sort descending by Rating
-
-✨ You can also add conditional formatting on Rating
-
-4️⃣ category_avg_discount
-Shows: Avg discount per main category
-
-📉 Use: Bar or Column Chart
-
-Axis: Main_Category
-
-Value: Avg_Discount
-
-✅ Add % labels and color formatting by discount range
-
-5️⃣ return_policy_distribution
-Shows: Count of products by return policy
-
-📦 Use: Pie Chart or Donut Chart
-
-Legend: Return_Policy
-
-Values: Product_Count
-
-🎨 Customize colors for each return policy type
-
-6️⃣ low_stock_products
-Shows: Products with stock < 10
-
-🚨 Use: Table or Stacked Column Chart
-
-Columns: Product_Name, Available_Stock
-
-Highlight low values in red using conditional formatting
-
-Optional: Add slicer for stock threshold
-
-7️⃣ popular_subcategories
-Shows: Most popular subcategories by buyers
-
-🛍️ Use: Column Chart
-
-Axis: Sub_Category
-
-Value: Total_Buyers
-
-🎯 Use slicers to filter by categories or seller if needed
-
-8️⃣ sellers_with_most_products
-Shows: Sellers with the most products listed
-
-🧾 Use: Bar Chart
-
-Axis: Seller
-
-Value: Product_Count
-
-Tip: Use Top N filter to show only top 10 sellers
