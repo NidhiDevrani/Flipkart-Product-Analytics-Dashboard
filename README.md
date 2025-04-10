@@ -1,4 +1,4 @@
- **Flipkart Product Analytics Dashboard**
+# **Flipkart Product Analytics Dashboard**
 
 👤 Author: NIDHI DEVRANI
 
@@ -7,7 +7,7 @@
 📁 Project Type: End-to-End Data Analytics Project
 
 #
-📌 **Project Overview**
+#📌 **Project Overview**
 
 This project demonstrates an end-to-end data analytics workflow using a Flipkart product dataset. It covers:
 
