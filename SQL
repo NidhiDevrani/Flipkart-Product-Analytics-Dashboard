@@ -1,4 +1,4 @@
-# 🔍 1. Top-Selling Products
+🔍 1. Top-Selling Products
 
 SHOWS - Top 10 products by Total_Sold
 
@@ -8,7 +8,8 @@ FROM flipkart_products
 ORDER BY Total_Sold DESC
 LIMIT 10;
 
-# 📊 2. Category-Wise Total Sales
+
+📊 2. Category-Wise Total Sales
 
 SHOWS - Total units sold per Main_Category
 
@@ -18,7 +19,8 @@ FROM flipkart_products
 GROUP BY Main_Category
 ORDER BY Total_Sales DESC;
 
-# 🌟 3. Top Rated Products
+
+🌟 3. Top Rated Products
 
 SHOWS - Top 10 products by Rating
 
@@ -29,7 +31,8 @@ WHERE Rating IS NOT NULL
 ORDER BY Rating DESC
 LIMIT 10;
 
-# 💸 4. Average Discount by Category
+
+💸 4. Average Discount by Category
 
 SHOWS - Average discount per Main_Category
 
@@ -39,7 +42,8 @@ FROM flipkart_products
 GROUP BY Main_Category
 ORDER BY Avg_Discount DESC;
 
-# 🧾 5. Return Policy Distribution
+
+🧾 5. Return Policy Distribution
 
 SHOWS - Product count per return policy
 
@@ -48,7 +52,8 @@ SELECT Return_Policy, COUNT(*) AS Product_Count
 FROM flipkart_products
 GROUP BY Return_Policy;
 
-# 📉 6. Low Stock Alert
+
+📉 6. Low Stock Alert
 
 SHOWS - Products with Available_Stock < 10
 
@@ -58,7 +63,8 @@ FROM flipkart_products
 WHERE Available_Stock < 10
 ORDER BY Available_Stock ASC;
 
-# 🛒 7. Most Popular Subcategories
+
+🛒 7. Most Popular Subcategories
 
 SHOWS - Sub-categories with highest total buyers
 
@@ -68,7 +74,8 @@ FROM flipkart_products
 GROUP BY Sub_Category
 ORDER BY Total_Buyers DESC;
 
-# 🛍️ 8. Sellers with Most Products
+
+🛍️ 8. Sellers with Most Products
 
 SHOWS - Sellers with most number of products listed
 
