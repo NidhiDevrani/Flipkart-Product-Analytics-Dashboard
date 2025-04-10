@@ -1,6 +1,4 @@
-# Flipkart-Product-Analytics-Dashboard
-
-Flipkart Product Dataset Analysis Dashboard
+# Flipkart Product Analytics Dashboard
 
 👤 Author: NIDHI DEVRANI
 
@@ -8,19 +6,17 @@ Flipkart Product Dataset Analysis Dashboard
 
 📁 Project Type: End-to-End Data Analytics Project
 
-📌 Project Overview
+# 📌 Project Overview
 
 This project demonstrates an end-to-end data analytics workflow using a Flipkart product dataset. It covers:
 
-Data cleaning & transformation in Excel
-
-Data modeling & analysis in SQL
-
-Interactive dashboard creation in Power BI
-
+* Data cleaning & transformation in Excel
+* Data modeling & analysis in SQL
+* Interactive dashboard creation in Power BI
+* 
 The goal is to uncover business insights such as top-selling products, discount trends, seller performance, and stock levels, and to present them in a clean and interactive Power BI report.
 
-🧹 Step 1: Data Cleaning (Excel)
+# 🧹 Step 1: Data Cleaning (Excel)
 
 Raw dataset downloaded from Kaggle
 
