@@ -7,6 +7,7 @@
 📁 Project Type: End-to-End Data Analytics Project
 
 ---
+
 # 📌 **Project Overview**
 
 This project demonstrates an end-to-end data analytics workflow using a Flipkart product dataset. It covers:
@@ -18,57 +19,62 @@ This project demonstrates an end-to-end data analytics workflow using a Flipkart
 The goal is to uncover business insights such as top-selling products, discount trends, seller performance, and stock levels, and to present them in a clean and interactive Power BI report.
 
 ---
+
 ## 🧹 **Step 1: Data Cleaning (Excel)**
 
-Raw dataset downloaded from Kaggle
 
-Removed duplicates, fixed formatting, and ensured column names matched SQL naming conventions
+* Raw dataset downloaded from Kaggle
 
-Saved as .csv for database import
+* Removed duplicates, fixed formatting, and ensured column names matched SQL naming conventions
+
+* Saved as .csv for database import
 
 📁 Cleaned Data Folder attached above
 
-
 ---
+
 ## 🗄️ **Step 2: SQL Database Integration (pgAdmin/PostgreSQL)**
 
-Imported cleaned CSV into PostgreSQL using pgAdmin 4
 
-Created a table named flipkart_products
+* Imported cleaned CSV into PostgreSQL using pgAdmin 4
 
-Designed and executed SQL queries to extract insights
+* Created a table named flipkart_products
+
+* Designed and executed SQL queries to extract insights
 
 📁 SQL Folder attached above
 
-Contains all 8 SQL view creation scripts
 
-🔎 SQL Views Created:
+### 🔎 Contains all 8 SQL view creation scripts:
 
-Top_Selling_Products_View
 
-Category_Sales_View
+* Top_Selling_Products View
 
-Top_Rated_Products_View
+* Category_total_Sales View
 
-Avg_Discount_Category_View
+* Top_Rated_Products View
 
-Return_Policy_View
+* Category_Avg_Discount View
 
-Low_Stock_Alert_View
+* Return_Policy_Distribution View
 
-Subcategory_Buyers_View
+* Low_Stock_Products View
 
-Top_Sellers_View
+* Popular_Subcategory View
 
+* Seller_With_Most_Products View
 
 ---
+
 ## 📊 **Step 3: Dashboard in Power BI**
 
-Imported SQL views into Power BI using Import mode
 
-Created 4 report pages:
+* Imported SQL views into Power BI using Import mode
+
+* Created 4 report pages
 
 📁 Power Bi Folder attached above
+
 
 ### 🏠 Page 1: Home
 
@@ -115,6 +121,7 @@ Sellers with Most Products (Column chart)
 📁 Screenshots Folder of Power Bi attached above
 
 ---
+
 # 📌 **Tools & Technologies Used**
 
 Excel – Data Cleaning
@@ -124,6 +131,7 @@ PostgreSQL (pgAdmin 4) – SQL Analysis & Views
 Power BI – Dashboard & Visualization
 
 ---
+
 # 📝 **Key Learnings**
 
 How to clean raw data for analysis
