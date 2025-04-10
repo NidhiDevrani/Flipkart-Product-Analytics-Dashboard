@@ -1,4 +1,4 @@
-# **Flipkart Product Analytics Dashboard**
+# **Flipkart Product Analysis**
 
 👤 Author: NIDHI DEVRANI
 
