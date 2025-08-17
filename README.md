@@ -1,7 +1,5 @@
 # **Flipkart Product Analysis**
 
-👤 Author: NIDHI DEVRANI
-
 📅 Date: [April, 2025]
 
 📁 Project Type: End-to-End Data Analytics Project
@@ -142,5 +140,10 @@ How to visualize insights in Power BI
 
 How to structure an end-to-end data analytics project
 
+---
 
+## ✨ Author
+**Nidhi Devrani**  
+- 📧 nidhidevrani01@gmail.com  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/nidhidevrani/)  
 
