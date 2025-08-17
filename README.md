@@ -132,13 +132,10 @@ Power BI – Dashboard & Visualization
 
 # 📝 **Key Learnings**
 
-How to clean raw data for analysis
-
-How to write analytical SQL queries
-
-How to visualize insights in Power BI
-
-How to structure an end-to-end data analytics project
+-How to clean raw data for analysis
+-How to write analytical SQL queries
+-How to visualize insights in Power BI
+-How to structure an end-to-end data analytics project
 
 ---
 
